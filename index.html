@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio of Arch Angelo Nino Coles, a Software Engineer building useful digital systems." />
+  <title>Arch Angelo Nino Coles — Software Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="page-noise"></div>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Go to top">~/portfolio <span>· v2.0</span></a>
+    <button class="menu-toggle" aria-expanded="false" aria-controls="site-nav">
+      <span class="menu-icon"></span><span>Menu</span>
+    </button>
+    <nav class="site-nav" id="site-nav">
+      <a href="#about"><span>01</span> About</a>
+      <a href="#skills"><span>02</span> Skills</a>
+      <a href="#projects"><span>03</span> Projects</a>
+      <a href="#education"><span>04</span> Education</a>
+      <a href="#contact"><span>05</span> Contact</a>
+      <a class="nav-github" href="https://github.com/ArchNapixel" target="_blank" rel="noreferrer">GitHub ↗</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero section-shell">
+      <div class="eyebrow reveal">PORTFOLIO / 2026</div>
+      <div class="hero-grid">
+        <div class="hero-copy reveal">
+          <p class="hero-kicker">Hello, I’m Arch Angelo Nino Coles<span class="accent">_</span></p>
+          <h1>Software<br /><em>Engineer</em><span class="accent">_</span></h1>
+          <p class="hero-intro">Passionate to make systems that truly produce solutions to businesses and individuals.</p>
+          <a class="text-link" href="#contact">Let’s build something useful <span>↗</span></a>
+        </div>
+        <div class="hero-aside reveal">
+          <div class="availability"><span class="status-dot"></span> Open to opportunities</div>
+          <img class="profile-photo" src="profile-photo.png" alt="Arch Angelo Nino Coles wearing a graduation stole" />
+          <p class="hero-note">Designing, developing,<br />and shipping with intent.</p>
+        </div>
+      </div>
+      <div class="scroll-cue"><span>Scroll to explore</span><i></i></div>
+    </section>
+
+    <section class="about section-shell" id="about">
+      <div class="section-label reveal"><span>01</span> About</div>
+      <div class="terminal-window reveal">
+        <div class="terminal-bar"><span></span><span></span><span></span><p>arch@portfolio: ~</p><span class="terminal-time">18:02:36</span></div>
+        <div class="terminal-content">
+          <p><b>$</b> whoami</p><h2>Arch Angelo Nino Coles</h2>
+          <p><b>$</b> cat role.txt</p><h3>Software Engineer</h3>
+          <p><b>$</b> cat school.txt</p><h3>Information Systems · Ateneo de Davao University</h3>
+          <p><b>$</b> ls ./projects</p><h3>suds-fold-laundry-hub/ &nbsp; darch-logistics/</h3>
+          <p class="cursor-line"><b>$</b> <span class="blinking-cursor"></span></p>
+        </div>
+      </div>
+    </section>
+
+    <section class="skills section-shell" id="skills">
+      <div class="section-label reveal"><span>02</span> Skills</div>
+      <div class="section-heading reveal"><p class="eyebrow">The toolkit</p><h2>Built with a<br /><em>curious mind.</em></h2></div>
+      <div class="skills-grid reveal">
+        <div class="skill-card featured"><span class="skill-no">01</span><strong>.jsx</strong><small>React</small></div>
+        <div class="skill-card"><span class="skill-no">02</span><strong>.ts</strong><small>TypeScript</small></div>
+        <div class="skill-card"><span class="skill-no">03</span><strong>.sql</strong><small>PostgreSQL</small></div>
+        <div class="skill-card"><span class="skill-no">04</span><strong>.html</strong><small>HTML</small></div>
+        <div class="skill-card"><span class="skill-no">05</span><strong>.css</strong><small>CSS</small></div>
+        <div class="skill-card"><span class="skill-no">06</span><strong>.js</strong><small>JavaScript</small></div>
+        <div class="skill-card"><span class="skill-no">07</span><strong>.c</strong><small>C</small></div>
+        <div class="skill-card"><span class="skill-no">08</span><strong>.dart</strong><small>Flutter</small></div>
+      </div>
+    </section>
+
+    <section class="projects section-shell" id="projects">
+      <div class="section-label reveal"><span>03</span> Projects</div>
+      <div class="section-heading projects-heading reveal"><p class="eyebrow">Selected work</p><h2>Small teams.<br /><em>Real systems.</em></h2></div>
+      <div class="project-list">
+        <a class="project-card reveal" href="https://suds-fold-laundry-hub.vercel.app/" target="_blank" rel="noreferrer">
+          <div class="project-top"><span>P-001 · Laundry service website</span><span class="project-arrow">↗</span></div>
+          <div class="project-body"><div><h3>Suds &amp; Fold<br /><em>Laundry Hub</em></h3><p>A wash-dry-fold laundry site for Bajada, Davao City, with online pickup booking, order tracking by numbered tag, and a price calculator.</p></div><div class="project-visual laundry-visual"><span>WASH<br />DRY<br />FOLD</span></div></div>
+          <div class="project-footer"><span>React</span><span>Booking system</span><span>2025</span></div>
+        </a>
+        <a class="project-card dark-card reveal" href="https://darch-logistics.vercel.app/" target="_blank" rel="noreferrer">
+          <div class="project-top"><span>P-002 · Logistics operations system</span><span class="project-arrow">↗</span></div>
+          <div class="project-body"><div><h3>Darch<br /><em>Logistics</em></h3><p>A trucking operations system covering bookings and trips, truck monitoring, maintenance schedules, and billing.</p></div><div class="project-visual logistics-visual"><span>TRUCK<br />OPS<br />SYSTEM</span></div></div>
+          <div class="project-footer"><span>TypeScript</span><span>Operations</span><span>2025</span></div>
+        </a>
+      </div>
+    </section>
+
+    <section class="education section-shell" id="education">
+      <div class="section-label reveal"><span>04</span> Education</div>
+      <div class="education-content">
+        <div class="section-heading reveal"><p class="eyebrow">The long game</p><h2>Always<br /><em>learning.</em></h2></div>
+        <div class="timeline reveal">
+          <article><span class="timeline-year">Year 1</span><div><h3>Computer Science</h3><p>Ateneo de Davao University</p></div></article>
+          <article><span class="timeline-year">Year 2</span><div><h3>Computer Science / Information Systems</h3><p>Ateneo de Davao University</p></div></article>
+          <article class="current"><span class="timeline-year">Year 3 · now</span><div><h3>Information Systems</h3><p>Ateneo de Davao University</p></div></article>
+          <article><span class="timeline-year">Certification</span><div><h3>Linux Web Server Administration</h3><p>Practical systems administration</p></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact section-shell" id="contact">
+      <div class="section-label reveal"><span>05</span> Contact</div>
+      <div class="contact-content reveal"><p class="eyebrow">Have a system that needs building?</p><h2>Let’s make it<br /><em>work better.</em></h2><a class="email-link" href="mailto:colesarch48@gmail.com">colesarch48@gmail.com <span>→</span></a></div>
+    </section>
+  </main>
+
+  <footer class="site-footer section-shell">
+    <span>© 2026 Arch Angelo Nino Coles</span>
+    <a href="https://github.com/ArchNapixel" target="_blank" rel="noreferrer">github.com/ArchNapixel ↗</a>
+    <button class="back-top" aria-label="Back to top">↑ top</button>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
